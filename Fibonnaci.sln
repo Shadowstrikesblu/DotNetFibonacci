@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{75E5077C-8D2A-4AD2-9D0C-E01BAB0941C6}"
+	ProjectSection(SolutionItems) = preProject
+		src\Leonardo.Web\appsettings.Development.json = src\Leonardo.Web\appsettings.Development.json
+		src\Leonardo.Web\appsettings.json = src\Leonardo.Web\appsettings.json
+		src\Leonardo.Web\Leonardo.Web.csproj = src\Leonardo.Web\Leonardo.Web.csproj
+		src\Leonardo.Web\obj\Leonardo.Web.csproj.nuget.dgspec.json = src\Leonardo.Web\obj\Leonardo.Web.csproj.nuget.dgspec.json
+		src\Leonardo.Web\obj\Leonardo.Web.csproj.nuget.g.props = src\Leonardo.Web\obj\Leonardo.Web.csproj.nuget.g.props
+		src\Leonardo.Web\obj\Leonardo.Web.csproj.nuget.g.targets = src\Leonardo.Web\obj\Leonardo.Web.csproj.nuget.g.targets
+		src\Leonardo.Web\obj\project.assets.json = src\Leonardo.Web\obj\project.assets.json
+		src\Leonardo.Web\obj\project.nuget.cache = src\Leonardo.Web\obj\project.nuget.cache
+		src\Leonardo.Web\Program.cs = src\Leonardo.Web\Program.cs
+		src\Leonardo.Web\Properties\launchSettings.json = src\Leonardo.Web\Properties\launchSettings.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonardo", "src\Leonardo\Leonardo.csproj", "{466474C7-1A62-4C01-B226-E01206F945A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tp2", "src\Tp2\Tp2.csproj", "{8111E4D0-0BD0-4574-97B4-181794843338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonardo.tests", "tests\Leonardo.tests\Leonardo.tests.csproj", "{F21120AA-9FC7-407D-A017-BA83323B382F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{466474C7-1A62-4C01-B226-E01206F945A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466474C7-1A62-4C01-B226-E01206F945A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466474C7-1A62-4C01-B226-E01206F945A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466474C7-1A62-4C01-B226-E01206F945A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8111E4D0-0BD0-4574-97B4-181794843338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8111E4D0-0BD0-4574-97B4-181794843338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8111E4D0-0BD0-4574-97B4-181794843338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8111E4D0-0BD0-4574-97B4-181794843338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F21120AA-9FC7-407D-A017-BA83323B382F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21120AA-9FC7-407D-A017-BA83323B382F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21120AA-9FC7-407D-A017-BA83323B382F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21120AA-9FC7-407D-A017-BA83323B382F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{466474C7-1A62-4C01-B226-E01206F945A0} = {75E5077C-8D2A-4AD2-9D0C-E01BAB0941C6}
+		{8111E4D0-0BD0-4574-97B4-181794843338} = {75E5077C-8D2A-4AD2-9D0C-E01BAB0941C6}
+	EndGlobalSection
+EndGlobal
