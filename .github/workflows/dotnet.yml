@@ -5,6 +5,16 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  00
+  #ENV ASPNETCORE_URLS=http://%2A:5000/
+  ENTRYPOINT ["/app/Leonardo.Web"]
+  guillaume chervet — Aujourd’hui à 13:43
+  docker run -p 8080:8080  --rm fibo
+  guillaume chervet — Aujourd’hui à 14:34
+publish_docker:
+  needs: [tags, build_docker]
+  runs-on: ubuntu-latest
+  steps:
 
 jobs:
   build:
