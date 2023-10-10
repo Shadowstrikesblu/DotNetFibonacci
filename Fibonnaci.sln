@@ -15,6 +15,34 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{75E5077C-8D2
 		src\Leonardo.Web\obj\project.nuget.cache = src\Leonardo.Web\obj\project.nuget.cache
 		src\Leonardo.Web\Program.cs = src\Leonardo.Web\Program.cs
 		src\Leonardo.Web\Properties\launchSettings.json = src\Leonardo.Web\Properties\launchSettings.json
+		src\Leonardo.Web\bin\Debug\net8.0\appsettings.Development.json = src\Leonardo.Web\bin\Debug\net8.0\appsettings.Development.json
+		src\Leonardo.Web\bin\Debug\net8.0\appsettings.json = src\Leonardo.Web\bin\Debug\net8.0\appsettings.json
+		src\Leonardo.Web\bin\Debug\net8.0\Leonardo.Web.deps.json = src\Leonardo.Web\bin\Debug\net8.0\Leonardo.Web.deps.json
+		src\Leonardo.Web\bin\Debug\net8.0\Leonardo.Web.dll = src\Leonardo.Web\bin\Debug\net8.0\Leonardo.Web.dll
+		src\Leonardo.Web\bin\Debug\net8.0\Leonardo.Web.exe = src\Leonardo.Web\bin\Debug\net8.0\Leonardo.Web.exe
+		src\Leonardo.Web\bin\Debug\net8.0\Leonardo.Web.pdb = src\Leonardo.Web\bin\Debug\net8.0\Leonardo.Web.pdb
+		src\Leonardo.Web\bin\Debug\net8.0\Leonardo.Web.runtimeconfig.json = src\Leonardo.Web\bin\Debug\net8.0\Leonardo.Web.runtimeconfig.json
+		src\Leonardo.Web\Dockerfile = src\Leonardo.Web\Dockerfile
+		src\Leonardo.Web\obj\Debug\net8.0\.NETCoreApp,Version = v8.0.AssemblyAttributes.cs = src\Leonardo.Web\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+		src\Leonardo.Web\obj\Debug\net8.0\apphost.exe = src\Leonardo.Web\obj\Debug\net8.0\apphost.exe
+		src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.AssemblyInfo.cs = src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.AssemblyInfo.cs
+		src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.AssemblyInfoInputs.cache = src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.AssemblyInfoInputs.cache
+		src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.assets.cache = src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.assets.cache
+		src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.csproj.CoreCompileInputs.cache = src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.csproj.CoreCompileInputs.cache
+		src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.csproj.FileListAbsolute.txt = src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.csproj.FileListAbsolute.txt
+		src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.dll = src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.dll
+		src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.GeneratedMSBuildEditorConfig.editorconfig = src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.GeneratedMSBuildEditorConfig.editorconfig
+		src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.genruntimeconfig.cache = src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.genruntimeconfig.cache
+		src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.GlobalUsings.g.cs = src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.GlobalUsings.g.cs
+		src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.MvcApplicationPartsAssemblyInfo.cache = src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.MvcApplicationPartsAssemblyInfo.cache
+		src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.pdb = src\Leonardo.Web\obj\Debug\net8.0\Leonardo.Web.pdb
+		src\Leonardo.Web\obj\Debug\net8.0\ref\Leonardo.Web.dll = src\Leonardo.Web\obj\Debug\net8.0\ref\Leonardo.Web.dll
+		src\Leonardo.Web\obj\Debug\net8.0\refint\Leonardo.Web.dll = src\Leonardo.Web\obj\Debug\net8.0\refint\Leonardo.Web.dll
+		src\Leonardo.Web\obj\Debug\net8.0\staticwebassets\msbuild.build.Leonardo.Web.props = src\Leonardo.Web\obj\Debug\net8.0\staticwebassets\msbuild.build.Leonardo.Web.props
+		src\Leonardo.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Leonardo.Web.props = src\Leonardo.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Leonardo.Web.props
+		src\Leonardo.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Leonardo.Web.props = src\Leonardo.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Leonardo.Web.props
+		src\Leonardo.Web\obj\Debug\net8.0\staticwebassets.build.json = src\Leonardo.Web\obj\Debug\net8.0\staticwebassets.build.json
+		src\Leonardo.Web\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs = src\Leonardo.Web\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonardo", "src\Leonardo\Leonardo.csproj", "{466474C7-1A62-4C01-B226-E01206F945A0}"

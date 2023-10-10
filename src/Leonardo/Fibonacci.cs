@@ -1,5 +1,4 @@
-using System;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 namespace Leonardo;
 
@@ -11,9 +10,13 @@ public class Fibonacci
             return 1;
         return Run(i - 1) + Run(i - 2);
     }
-
+    
     public static async Task<IList<int>> RunAsync(string[] args)
     {
+        if (args.Length >= 100)
+        {
+            throw new ArgumentException("Too much");
+        }
         IList<int> results = new List<int>();
         Stopwatch stopwatch = new Stopwatch();
         stopwatch.Start();
@@ -30,13 +33,13 @@ public class Fibonacci
         }
         foreach (var task in tasks)
         {
-            Console.WriteLine($"Result: {task.Result}");
-            results.Add(task.Result);
+            var result = await task;
+            Console.WriteLine($"Result: {result}");
+            results.Add(result);
         }
         stopwatch.Stop();
         Console.WriteLine("Total elapsed time: {0} ms", stopwatch.ElapsedMilliseconds);
 
         return results;
-        
     }
 }
